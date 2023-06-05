@@ -1,0 +1,63 @@
+/*.logo{
+    width: 150px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+header{
+    background: hsl(358, 85%, 52%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu{
+    background: #FBCA03;
+    display: inline-block;
+    width: 1000px;
+   
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 66px;
+}*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.logo{
+  height: 40px;  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: red
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 25px; 
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
