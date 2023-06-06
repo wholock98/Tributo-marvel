@@ -24,23 +24,27 @@ nav ul li{
     display: inline;
     margin-left: 66px;
 }*/
+
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f1f1f1;
+  padding-right: 300px;
+  background-color: hsl(358, 85%, 52%) ;
 }
 
 .logo{
-  height: 40px;  
+  height: 60px;  
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  background: red
+  padding: 20px;
+  background: #FBCA03;
+  border-radius: 20px;
 }
 
 nav ul li {
@@ -48,16 +52,13 @@ nav ul li {
   margin-left: 25px; 
 }
 
-nav ul li:first-child {
-  margin-left: 0;
-}
 
 nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: black;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #555;
+  color: white;
 }
