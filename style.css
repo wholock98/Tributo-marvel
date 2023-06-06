@@ -60,5 +60,34 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: white;
+  color: #555;
 }
+
+.seccion1{
+  background-color: #AA0505;
+  height: 300px;
+  
+}
+
+.texto1{
+  
+  color: white;
+  text-align: center;
+  background-color: #67C7EB;
+  width: 500px;
+  height: 200px;
+  margin-left:25px;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-top: 20px;
+  
+}
+
+/*.ironman1{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}*/
