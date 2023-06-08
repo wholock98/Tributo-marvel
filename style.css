@@ -1,31 +1,3 @@
-/*.logo{
-    width: 150px;
-    height: 100px;
-    margin-top: 25px;
-}
-
-header{
-    background: hsl(358, 85%, 52%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.menu{
-    background: #FBCA03;
-    display: inline-block;
-    width: 1000px;
-   
-    
-}
-
-nav ul li{
-    display: inline;
-    margin-left: 66px;
-}*/
-
-
 header {
   display: flex;
   align-items: center;
@@ -62,45 +34,48 @@ nav ul li a {
 nav ul li a:hover {
   color: white;
 }
+
+
+
 .seccion1{
   background-color: #AA0505;
   height:300px;
+  margin-top: -20px;
 }
 
 .texto1{
   color: white;
   text-align: center;
   margin-right: 1000px;
-  margin-top: 7px;
   background-color: #67C7EB;
   width: 500px;
   height: 250px;
   margin-left:25px;
-  
+  border-radius: 20px;
+
 }
 
 .ironman1{
   width: 250px;
   height: 250px;
   position: relative;
-  margin-left: 1250px;
-  margin-top: -15%;
+  margin-left: 950px;
+  margin-top: -400px;
 }
 
 .seccion2{
   background-color: #B97D10;
   height: 300px;
+  margin-top: -20px;
 }
 
 .texto2{
   color: white;
   text-align: center;
-  margin-right: 1000px;
-  margin-top: 7px;
   background-color: #67C7EB;
-  width: 500px;
   height: 250px;
   margin-left:800px;
+  border-radius: 20px;
 }
 
 .ironman2{
@@ -110,4 +85,79 @@ nav ul li a:hover {
   margin-right: 1000px;
   margin-left: 50px;
   margin-top: -226px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+.seccion3{
+  background-color: #AA0505;
+  height:300px;
+  margin-top: -20px;
+}
+
+.texto3{
+  color: white;
+  text-align: center;
+  margin-right: 1000px;
+  background-color: #67C7EB;
+  width: 500px;
+  height: 250px;
+  margin-left:25px;
+  border-radius: 20px;
+
+}
+
+.ironman3{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-left: 950px;
+  margin-top: -400px;
+  border-radius: 20px;
+}
+
+
+
+.seccion4{
+  background-color: #B97D10;
+
+  height: 300px;
+  margin-top: -20px;
+}
+
+.texto4{
+  color: white;
+  text-align: center;
+  background-color: #67C7EB;
+  height: 250px;
+  margin-left:800px;
+  border-radius: 20px;
+}
+
+.ironman4{
+  width: 250px;
+  height: 260px;
+  position: relative;
+  margin-right: 1000px;
+  margin-left: 50px;
+  margin-top: -226px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #AA0505;
+  height: 45px;
+  margin-top: -21px;
+}
+
+h4 {
+  border-radius: 20px;
+  border-color: #B97D10;
+  color: white;
+  padding-left: 50%;
 }
